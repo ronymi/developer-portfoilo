@@ -66,6 +66,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section {
+  margin-bottom: 100px;
+}
 .about-me {
   margin-top: 130px;
   background: #fff8f3;
@@ -74,11 +77,12 @@ main {
   text-align: center;
 }
 .section-title {
+  text-align: center;
   margin-bottom: 30px;
   font-size: 35px;
   font-weight: 700;
 }
-.about-me-text {
+.section-text {
   color: #757575;
   font-size: 18px;
   margin-bottom: 30px;
@@ -95,4 +99,89 @@ main {
   font-weight: 700;
   font-size: 20;
   color: #474747;
+}
+/* what i do section */
+.what-i-do h3 {
+  text-align: center;
+}
+
+.what-i-do .section-text {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+}
+.skill {
+  padding: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+  box-shadow: #e1e0e0 10px 10px;
+}
+.skill-name {
+  padding: 20px 0;
+}
+/* my resume styles */
+.resume-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-left: 30px;
+}
+.title {
+  font-size: 25px;
+  padding: 10px 0;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  padding: 10px 0;
+}
+.resume-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.resume-container {
+  display: flex;
+}
+.resume-item {
+  margin: 30px;
+}
+.resume-download {
+  text-align: center;
+  padding: 50px;
+}
+.contact {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #fff8f3;
+}
+.contact-sms input {
+  width: 80%;
+  margin: 10px;
+  height: 40px;
+  /* padding-left: 20px; */
+}
+.contact-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.contact-container a {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.contact-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
