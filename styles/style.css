@@ -185,3 +185,50 @@ section {
   padding-right: 30px;
   padding-bottom: 30px;
 }
+@media screen and (max-width: 576px) {
+  nav,
+  nav ul,
+  .banner,
+  .skill-container,
+  .resume-container,
+  .about-info,
+  .contact {
+    flex-direction: column;
+  }
+  .banner-text {
+    margin-left: 60px;
+  }
+  .banner {
+    margin: 10px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .about-me {
+    padding: 5px;
+  }
+  .about-info-details {
+    padding-bottom: 10px;
+  }
+  .contact {
+    padding-left: 10px;
+  }
+  .contact button {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  nav,
+  .skill-container,
+  .resume-container,
+  .about-info {
+    flex-wrap: wrap;
+  }
+  .skill,
+  .about-info-details {
+    width: 40%;
+  }
+}
+.hide {
+  display: none;
+}
